@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Metadatos-->
+        <meta charset="utf-8">
+        <meta name="author" content="Raúl">
+        <meta name="description" content="Portafolio">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React"><!--Borrar?-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Titulo-->
+        <title>Raúl Olvera|Portafolio</title>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!--CSS-->
+        <link href="style.css" rel="stylesheet">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light">
+            
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/software-icon.png" width="50" alt="Logo de la pagina">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi-id">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#exp1-id">Habilidades Duras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#exp2-id">Habilidades Blandas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos-id">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#tests-id">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-id">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!--Hero-->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center"> 
+                <img class="hero-imagen-yo" src="Images/yo3.jpg" alt="Foto Raúl Olvera">
+                <h1>Hola soy Rául Olvera</h1>
+                <h2>Estudiante de Ingenieria de Software de la UAQ</h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-imagen img-fluid" src="Images/hero-inferior.svg" alt="imagenHeroInferior">
+            </div>
+        </section>
+        <!--Sobre mi-->
+        <section id="sobre-mi-id" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Sobre mi</h2>
+                <p class="seccion-texto">Soy alumno de la UAQ de la carrera de Ingeniería de Software, actualmente 
+                    estoy cursando el quinto semestre de la carrera y mantengo un promedio general de 9.0.
+                    En mis tiempos libres me gusta practicar deportes sobre todo de resistencia, soy corredor y estoy buscando correr mi primer maratón, también practico ciclismo y natación.</p>
+            </div>
+        </section>
+        <!--Experiencia1-->
+        <section id="exp1-id" class="experiencia1 seccion-clara">
+            <div class="container text-center">
+                <h2 class="seccion-titulo">Habilidades Duras</h2>
+                <div class="row">
+                    <!--Desarrollo Web-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia1-titulo">Desarrollo Web</p>
+                        <p class="seccion-texto">Destaco mi experiencia en la creación de estructuras web mediante HTML, enfocándome 
+                            en la eficiencia de la maquetación y la implementación de formularios accesibles. En 
+                            cuanto a CSS, tengo conocimiento de selectores, propiedades 
+                            y valores, permitiéndome estilizar páginas web con diseños atractivos y 
+                            consistentes. Aplico principios de diseño responsivo para garantizar una experiencia 
+                            óptima en distintos dispositivos.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">HTML</span>
+                            <span class="badge text-bg-primary">CSS</span>
+                            <span class="badge text-bg-primary">PHP</span>
+                            <span class="badge text-bg-primary">JavaScript</span>
+                        </div>
+                    </div>
+                    <!--Estudiante-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-person-lines-fill"></i>
+                        <p class="experiencia1-titulo">Estudiante</p>
+                        <p class="seccion-texto">Como estudiante me destaco en ser un estudiante responsable, dedicado y perseverante. 
+                            Me gusta aprender nuevas cosas y siempre estoy abierto a adquirir nuevos conocimientos. 
+                            Manteniendo un promedio de 9.0 desde el primer semestre demuestra que he mantenido un buen nivel académico 
+                            como estudiante pero siempre busco mejorar.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Responsable</span>
+                            <span class="badge text-bg-primary">Perseverante</span>
+                            <span class="badge text-bg-primary">Autodisciplina</span>
+                        </div>
+                    </div>
+                    <!--Conocimientos-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-journal-bookmark-fill"></i>
+                        <p class="experiencia1-titulo">Conocimientos</p>
+                        <p class="seccion-texto">A  lo largo de la carrera he adquirido conocimientos en varios lenguajes de programación como lo son: C#, C++, Python, 
+                            además de tener los conocimientos de la programación orientada a objetos. 
+                            También cuento con conocimientos de base de datos en MySQL. 
+                            Tengo conocimientos en desarrollo web con HTML, CSS y PHP.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Python</span>
+                            <span class="badge text-bg-primary">MySQL</span>
+                            <span class="badge text-bg-primary">PHP</span>
+                            <span class="badge text-bg-primary">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--Experiencia2-->
+         <section id="exp2-id" class="experiencia1 seccion-clara">
+            <div class="container text-center">
+                <h2 class="seccion-titulo">Habilidades Blandas</h2>
+                <div class="row">
+                    <!--Deportes-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-person-walking"></i>
+                        <p class="experiencia1-titulo">Deportes</p>
+                        <p class="seccion-texto">Mi participación en actividades deportivas ha cultivado una 
+                            serie de habilidades blandas que trascienden el ámbito físico. 
+                            La pasión por los deportes no solo representa una búsqueda de bienestar, sino también una oportunidad para desarrollar 
+                            características clave para el trabajo en equipo y el crecimiento personal. El 
+                            practicar deportes de resistencia me ha ayudado a tener una mejor discplina y ser mas perseverante en mis metas.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Correr</span>
+                            <span class="badge text-bg-primary">Ciclismo</span>
+                            <span class="badge text-bg-primary">Natación</span>
+                            <span class="badge text-bg-primary">Trail Running</span>
+                        </div>
+                    </div>
+                    <!--Trabajo en Equipo-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-people-fill"></i>
+                        <p class="experiencia1-titulo">Trabajo en Equipo</p>
+                        <p class="seccion-texto">Mi experiencia en diversos entornos profesionales ha sido moldeada por 
+                            una profunda apreciación y compromiso con el trabajo en equipo. Reconozco que el éxito 
+                            no es solo un logro individual, sino el resultado de la colaboración y la sinergia de 
+                            habilidades diversas. Mi enfoque en el trabajo en equipo no solo es un aspecto fundamental de mi carrera, 
+                            sino un valor arraigado en mi filosofía de crecimiento y éxito.  </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Colaboración Efectiva</span>
+                            <span class="badge text-bg-primary">Comunicación Clara</span>
+                            <span class="badge text-bg-primary">Resolución Constructiva de Conflictos</span>
+                        </div>
+                    </div>
+                    <!--Adaptabilidad-->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-gear-wide-connected"></i>
+                        <p class="experiencia1-titulo">Adaptabilidad</p>
+                        <p class="seccion-texto">Mi habilidad destacada en adaptabilidad ha sido una fuerza impulsora en 
+                            mi enfoque profesional. Entiendo que en un mundo en constante cambio, la capacidad de 
+                            adaptarse rápidamente es esencial para el éxito. La capacidad de ajustarse y prosperar 
+                            en entornos cambiantes no solo es esencial en el mundo actual, sino que también ha sido un 
+                            pilar clave en mi desarrollo profesional.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Flexibilidad ante el Cambio</span>
+                            <span class="badge text-bg-primary">Aprendizaje Continuo</span>
+                            <span class="badge text-bg-primary">Mentalidad Abierta al Cambio</span>
+                            <span class="badge text-bg-primary">Liderazgo Resiliente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Proyectos-->
+        <section id="proyectos-id" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+            <h3 class="seccion-descripcion">Mis proyectos recientes</h3>
+            <!--Galeria de Proyectos-->
+            <div class="container text-center proyectos-contenedor">
+                <div class="row">
+                    <!--Proyecto1-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto1.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 1</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto2-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto2.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 2</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto3-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto3.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 3</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto4-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto4.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 4</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto5-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto5.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 5</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto6-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="Images/proyecto6.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 6</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.google.com.mx/?hl=es" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--Testimonios-->
+        <section id="tests-id" class="testimonios seccion-clara">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 class="seccion-descripcion">Estos son algunos testimonios de mis maestros...</h3>
+            <!--Carrusel-->
+            <div id="carrusel-id" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Images/profeAlex.jpg" alt="Foto de RaulN1">
+                        <p class="testimonio-texto">
+                            "Raúl tienes 10 en tu proyecto."
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="maestro">Alejandro Lozada</p>
+                            <p class="cargo">Ingeniero de Software/Profesor de Educación Continua</p>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Images/desarrollador2.svg" alt="Foto de RaulN1">
+                        <p class="testimonio-texto">
+                            Dedicación y esfuerzo a la hora de realizar los trabajos.
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="maestro">Carlo Giovanni Cetina Camacho</p>
+                            <p class="cargo">Ingeniero de Software</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Images/desarrollador3.svg" alt="Foto de RaulN1">
+                        <p class="testimonio-texto">
+                            Buen desempeño académico, entrega sus trabajos en tiempo y forma.
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="maestro">Diego Octavio Ibarra Corona</p>
+                            <p class="cargo">Ingeniero de Software/Coordinador de Ingeniería de Software</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-id" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrusel-id" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+        </section>
+        <!--Contacto-->
+        <section id="contact-id" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <!--1Col-->
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>   
+                        <!--2Col-->
+                        <div class="col-12 col-md-4 descripcion">
+                            Contáctame para más información. Contáctame para iniciar tu proyecto de desarrollo web.
+                        </div>  
+                        <!--3Col-->  
+                        <div class="col-12 col-md-4">
+                            <a href="https://www.google.com/intl/es-419/gmail/about/">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-icono" src="Images/software-icon.png" alt="logo--">
+            <p class="footer-texto text-center">
+                ¡Gracias por visitar mi portafolio! Explora mi trabajo, conéctate conmigo y descubre cómo podemos colaborar para dar vida a tus ideas. ¡Espero saber de ti pronto! 🚀
+            </p>
+            <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+                <!--Threads-->
+                <a href="https://www.threads.net/@raul._olvera" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-threads"></i>
+                </a>
+                <!--GitHub-->
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+                </a>
+                <!--Facebook-->
+                <a href="https://www.facebook.com/profile.php?id=100053226603681" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+                </a>
+                <!--Instagram-->
+                <a href="https://instagram.com/raul._olvera?igshid=MWN5OTkzMDhldW94cQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+                </a>
+                <!--Correo-->
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+                </a>
+            </div>
+            <div class="derechos-autor">Creado por Raúl Olvera (2023) &#169;</div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
