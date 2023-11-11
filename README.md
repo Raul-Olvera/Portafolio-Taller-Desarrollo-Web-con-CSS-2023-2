@@ -16,3 +16,12 @@ Portafolio (Proyectos escolares o personales)
 Contacto (Puedes usar datos ficticios para el proyecto)
 ![image](https://github.com/Raul-Olvera/Portafolio-Taller-Desarrollo-Web-con-CSS-2023-2/assets/150509651/d71b0245-0541-4cd1-a5f6-994c38682555)
 
+Además de lo pedido tambien agregue lo siguiente:
+Barra de navegación y una presentación a la pagina donde se presenta mi nombre y una foto mia que hace complemento a la sección "Sobre mí"
+![image](https://github.com/Raul-Olvera/Portafolio-Taller-Desarrollo-Web-con-CSS-2023-2/assets/150509651/b0a3a9a5-407d-4773-bc88-e5d56b7a4618)
+
+Una parte de testimonios:
+![image](https://github.com/Raul-Olvera/Portafolio-Taller-Desarrollo-Web-con-CSS-2023-2/assets/150509651/c3d657df-074c-48f0-9b9f-40358a404c67)
+
+Y por último el footer:
+![image](https://github.com/Raul-Olvera/Portafolio-Taller-Desarrollo-Web-con-CSS-2023-2/assets/150509651/b32cc396-af87-4d8a-bf89-ede4fd72c651)
